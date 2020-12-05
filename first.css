@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    background: url(plant.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(48, 78, 76, 0.4);
+}
+
+.navbar h1{
+    width: 40px;
+    height: auto;
+    padding: 20px 60px;
+    color: rgba(17,75,17);
+    font-size: 240%; 
+    
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px ;
+
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 15px;
+    display: inline-block;
+    line-height: 80px;
+
+}
+
+.navbar ul li a{
+
+    text-decoration: none;
+    color: rgb(16, 119, 16);
+    font-size: 17px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif ;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: rgb(106, 170, 122);
+    border-radius: 2px;
+}
+
+.wrapper .center{
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50% ,-50%);
+    font-family: sans-serif;
+    user-select: none;
+   
+   }
+   .center h1{
+    color: rgba(17,75,17);
+    font-size: 45px;
+    font-style: inherit;
+    font-family: 'Times New Roman', Times, serif;
+    width: 900px;
+   }
+
+  
+   .center .buttons{
+       margin: 20px 150px;
+   }
+   .buttons button{
+       height: 50px;
+       width: 200px;
+       font-weight: bold;
+       font-size: 18px;
+       color: rgb(16, 119, 16);
+       background: rgba(48, 78, 76, 0.4);
+       border: 1px solid rgb(106, 170, 122) ;
+       outline: none;
+       cursor: pointer;
+       border-radius: 25px;    
+   }
+   
+   .buttons button:hover{
+       background:rgb(106, 170, 122) ; 
+   }
+
